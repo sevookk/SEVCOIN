@@ -3,11 +3,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
+    background-color: #f2f2f2;
 }
 
 h1 {
     color: #333;
     font-size: 28px;
+    text-align: center;
+    margin-top: 40px;
 }
 
 h2 {
@@ -17,13 +20,14 @@ h2 {
 }
 
 input[type="text"],
-input[type="password"],
 input[type="submit"] {
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 input[type="submit"] {
@@ -36,33 +40,19 @@ input[type="submit"]:hover {
     background-color: #45a049;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    margin-bottom: 10px;
-}
-
 /* Specific Styles */
 .container {
     max-width: 600px;
     margin: 0 auto;
-}
-
-.register-form,
-.login-form,
-.trading-form {
-    background-color: #f2f2f2;
+    background-color: white;
     padding: 20px;
     border-radius: 5px;
     margin-bottom: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.register-form h2,
-.login-form h2,
-.trading-form h2 {
-    margin-top: 0;
+.trading-form {
+    margin-top: 40px;
 }
+
