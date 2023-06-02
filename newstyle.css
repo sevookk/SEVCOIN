@@ -40,58 +40,8 @@ header {
   text-decoration: none;
 }
 
-.goals h1 {
-  color: black;
-}
-
-.goals {
-  text-align: center;
-  color: #333;
-}
-
-.mission {
-  text-align: center;
-}
-
-.mission p {
-  font-size: 18px;
-}
-
-.mission p span {
-  color: brown;
-  font-weight: bold;
-}
-
-.dog {
-  width: 15%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-.cryptos h1 {
-  text-align: center;
-  color: brown;
-}
-
-.cryptos h2 {
-  left: 15%;
-}
-
 #header-logo {
   display: inline-block;
   max-width: 5%;
   max-height: 5%;
-}
-
-.moneyMoves {
-  position: absolute;
-  top: 27%;
-  left: 43%;
-}
-
-.sevcoin-title {
-  position: absolute;
-  top: 115%;
-  left: 50%;
 }
